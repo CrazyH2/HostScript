@@ -9,7 +9,7 @@ rm -i ./hostscript/terminal.bat
 echo "Moving HostScript Installation..."
 mv ./hostscript ~/.hostscript
 echo "Adding HostScript Command..."
-echo 'source ~/.hostscript/hostscript/terminal.sh' >>~/.bash_profile
+echo 'source ~/.hostscript/terminal.sh' >>~/.bash_profile
 echo "HostScript Installed."
 read -n 1 -s -r -p "Press any key to quit the installer."
 exit
