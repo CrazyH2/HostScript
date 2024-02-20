@@ -17,7 +17,19 @@ To get started with HostScript, follow these steps:
 2. **Starter Script**: Write your first HostScript (.hs) script to get a feel for the language. Here's a simple example:
 
     ```hostscript
-    echo "Hello, World!"
+    use http as @;
+
+    get("/home") {
+        text("This is home!");
+    };
+
+    get("/file") {
+        file("/views/index.html");
+    };
+
+    post("/update", { user: string, data: object }) { // The request needs the body to have a user value and its type to be a string.
+        json({ success: true, message: "Data successfully updated" })
+    };
     ```
 
 4. **Run Scripts**: Run your starter script by running `hs script.js` in the directory of the starter script you made.
