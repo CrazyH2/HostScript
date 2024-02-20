@@ -35,6 +35,7 @@ To get started with HostScript, follow these steps:
     multiple lines!*-
     ```
 
+4. **Windows only**: If your on windows you will have to open the HostScript terminal manually otherwise if your on MacOS or Linux just use the normal terminal. To open the HostScript terminal run `%ProgramFiles%\hostscript\terminal.exe`
 4. **Run Scripts**: Run your starter script by running `hs script.js` in the directory of the starter script you made.
 3. **Explore Documentation**: Refer to the [documentation](DOCUMENTATION.md) for detailed information on HostScript syntax, features, and usage.
 
@@ -44,8 +45,9 @@ To get started with HostScript, follow these steps:
 
 To install HostScript, do the following:
 
-1. **Download**: [Download the repository code](https://github.com/CrazyH2/HostScript/archive/refs/heads/main.zip) and unzip it.
-2. **Install Terminal/Compiler**: Open the downloaded folder in your shell and run `./install.sh`.
+1. **Prepare**: Make sure you have NodeJS installed and it's on the latest version. If you don't have it you can get it [here](https://nodejs.org)
+2. **Download**: [Download the repository code](https://github.com/CrazyH2/HostScript/archive/refs/heads/main.zip) and unzip it.
+3. **Install Terminal/Compiler**: Open the downloaded folder in your shell (If your on windows use administrator mode) and run `./install.sh` (If your on mac use sudo).
 
 ## Contributing
 
