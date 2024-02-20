@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 printf '\e]1;%s\a' 'HostScript Installer'
 printf "\e[0;33m"
