@@ -21,7 +21,7 @@ To get started with HostScript, follow these steps:
     ```
 
 4. **Run Scripts**: Run your starter script by running `hs script.js` in the directory of the starter script you made.
-3. **Explore Documentation**: Refer to the [documentation](link/to/documentation) for detailed information on HostScript syntax, features, and usage.
+3. **Explore Documentation**: Refer to the [documentation](DOCUMENTATION.md) for detailed information on HostScript syntax, features, and usage.
 
 <h1 name="installation"></h1>
 
