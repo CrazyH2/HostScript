@@ -28,7 +28,7 @@ To get started with HostScript, follow these steps:
 
 To install HostScript, do the following:
 
-1. **Download**: Download the repository code and unzip it.
+1. **Download**: [Download the repository code](https://github.com/CrazyH2/HostScript/archive/refs/heads/main.zip) and unzip it.
 2. **Install Terminal/Compiler**: Open the downloaded folder in your shell and run `./install.sh`.
 
 ## Contributing
