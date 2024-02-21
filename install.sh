@@ -3,6 +3,7 @@
 printf '\e]1;%s\a' 'HostScript Installer'
 printf "\e[0;33m"
 clear
+printf '\033[3J'
 echo "Installing HostScript..."
 echo "Cleaning Up HostScript Files..."
 rm -i -f ./hostscript/terminal.bat
