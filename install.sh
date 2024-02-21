@@ -5,9 +5,9 @@ printf "\e[0;33m"
 clear
 echo "Installing HostScript..."
 echo "Cleaning Up HostScript Files..."
-rm -i ./hostscript/terminal.bat
+rm -f ./hostscript/terminal.bat
 echo "Moving HostScript Installation..."
-mv ./hostscript ~/.hostscript
+mv ./hostscript ~/
 echo "Adding HostScript Command..."
 echo 'source ~/.hostscript/terminal.sh' >>~/.bash_profile
 echo "HostScript Installed."
