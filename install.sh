@@ -7,7 +7,7 @@ echo "Installing HostScript..."
 echo "Cleaning Up HostScript Files..."
 rm -f ./hostscript/terminal.bat
 echo "Moving HostScript Installation..."
-mv ./hostscript ~/
+mv ./hostscript ~/.hostscript
 echo "Adding HostScript Command..."
 echo 'source ~/.hostscript/terminal.sh' >>~/.bash_profile
 echo "HostScript Installed."
