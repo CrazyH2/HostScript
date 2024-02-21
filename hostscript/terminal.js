@@ -1,4 +1,4 @@
-const compiler = require("./compiler").compiler;
+const compiler = require("./compiler").Compiler;
 
 class Terminal {
   constructor() {
